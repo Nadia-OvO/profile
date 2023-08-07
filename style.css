@@ -1,0 +1,84 @@
+body {
+  font-family: Overpass;
+  color: #708090;
+  text-align: center;
+  background-color: #708090;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 25px;
+}
+
+head {
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+  line-height: 10px;
+  font-size: 20px;
+  color: #708090;
+}
+
+h2{
+  line-height: 10px;
+  font-size: 30px;
+  color: #708090;
+}
+
+.buttom_1 {
+  text-decoration: none;
+  background-color: #6B72E1;
+  color: white;
+  font-family:Space Mono;
+  padding: 8px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  font-size:18px;
+  font-weight:bold;
+}
+
+.buttom_1:hover{/*定位我们的按钮的悬停状态*/
+  background-color: black;/*鼠标移动到按钮，按钮就变色*/
+  color:white;
+}
+
+.fa-brands {
+  color: #A9A9A9;
+  font-size: 50px;
+}
+
+.fa-brands:hover{/*定位我们的按钮的悬停状态*/
+  background-color: #A9A9A9;/*鼠标移动到按钮，按钮就变色*/
+  color:#F0FFFF;
+  border: 1px solid #F0FFFF;
+  border-radius: 5px;
+}
+
+.card {
+  background-color:#DCDCDC;
+  border: 1px solid #F0FFFF;
+  box-shadow: 2px 2px 3px #6e6f6f;
+  border-radius: 10px;
+  width: 800px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 20 auto;
+}
+
+#NadiaImg1 {
+  border-radius:50%;
+  width:200px;
+  height:200px;
+}
+
+#dundun1{
+  border-radius:30%;
+  width:200px;
+  height:200px;
+}
+
+@media (max-width: 540px) {
+  /* 对于屏幕小于540px的情况，这个CSS将被读取 */
+  .container {
+    width: 300px;
+  }
+}
